@@ -1,0 +1,26 @@
+h1 {
+    text-align: left;
+    font-size: 24px;
+    color: #aa3333;
+}
+
+h2 {
+    text-align: left;
+    font-size: 20px;
+    color: #dd5a3a;
+}
+
+img {
+    border-radius: 15px;
+    border: 1px solid #aa3333;
+}
+
+.info, .title-image {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.title-image {
+    margin-left: 55px;
+}
