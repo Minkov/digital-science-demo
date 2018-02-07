@@ -1,0 +1,153 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background: pink;
+        }
+
+        h1 {
+            color: purple;
+        }
+
+        h2 {
+            color: #c555f4;
+            border-bottom: 1px solid #c555f4;
+            /* text-decoration: underline; */
+            /* color: rgb(197, 85, 244); */
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        div {
+            display: inline-block;
+        }
+
+        .left {
+            width: 30%;
+        }
+
+        .right {
+            width: 68%;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .nav {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .nav li {
+            border-left: 1px solid white;
+            display: inline-block;
+        }
+
+        .nav li a {
+            padding: 5px 15px;
+            display: inline-block;
+        }
+
+        .nav li ul {
+            display: none;
+        }
+
+        .nav li:hover ul {
+            display: block;
+            position: absolute;
+        }
+
+        .nav li li {
+            display: block;
+            text-align: left;
+            border: 0;
+        }
+
+        .nav li:first-of-type {
+            border-left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="nav">
+        <li>
+            <a href="#">Profile</a>
+        </li>
+        <li>
+            <a href="#">Friends</a>
+        </li>
+        <li>
+            <a href="#">Contacts</a>
+        </li>
+        <li>
+            <a href="#">Trailers</a>
+        </li>
+        <li>
+            <a href="#">Houses</a>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">The Beast's castle</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <h1>Profile of Belle the Beauty</h1>
+
+    <div class="left">
+        <img width="200" src="bell.png" />
+
+        <br/> I love books.
+    </div>
+    <div class="right">
+        <h2>Personal info</h2>
+        <ul>
+            <li>Date of birth:
+                <strong>10 February 1999</strong>
+            </li>
+            <li>Occupation:
+                <strong>Princess</strong>
+            </li>
+            <li>E-mail:
+                <a href="mailto:belle@disney.com">belle@disney.com</a>
+            </li>
+            <li>Web site:
+                <a target="_blank" href="http://disney.wikia.com/wiki/Belle">bellesbeauty.com</a>
+            </li>
+        </ul>
+
+
+        <h2>Hobbies</h2>
+        <ol type="A">
+            <li>
+                Reading
+            </li>
+            <li>
+                Dancing
+            </li>
+            <li>
+                Singing
+            </li>
+        </ol>
+    </div>
+</body>
+
+</html>
