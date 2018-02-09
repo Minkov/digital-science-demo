@@ -61,5 +61,29 @@ _Many pages and extenal CSS_
 3. Remaining time, complete you projects
 
 
+# Part 5
 
+1. Introduce some JS
+  - console.log(), alert(), document.body
+2. Introduce jQuery
+  - Add click event on the button with the form
+3. Extract the navigation into separate file
+  - show $().load() method
+  - Use window.location to set .active in the navigation
+
+# Part 6
+
+1. Introduce AJAX
+  - Use a predefined RESTfull API with GET and POST
+2. Remove the static content of the "Friends" page with result from GET
+3. Make the click event of the form to POST to the API
+4. Show async operations using a loader
+  - Create the loader into separate files
+    - ui/loader.hmtl
+    - css/loader.css
+    - js/loader.js
+5. Make the loader to:
+  - Appear before sending HTTP request
+  - Disappear after the request has result
+6. Animate the dots (...) of the loader
 
