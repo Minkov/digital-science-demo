@@ -11,6 +11,12 @@
             "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
             "occupation": "Beast",
             "id": "ce98cc15-4bbd-4f18-b27a-65e5762ab263"
+        },
+        {
+            "name": "Mulan",
+            "image": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1492185152/articles/2015/03/31/the-mulan-live-action-film-disney-is-finally-embracing-diversity/150331-bergado-mulan-live-tease_lbwg3b",
+            "occupation": "Princess",
+            "id": "ce98cc15-4bbd-4f18-b27a-65e5762ab263"
         }
     ]
 }
