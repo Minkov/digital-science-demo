@@ -1,0 +1,125 @@
+{
+  "friends": [
+    {
+      "name": "Gaston",
+      "id": "67757f7d-a4ec-44f6-9406-73a0cdab6414",
+      "occupation": "Hunter",
+      "image": "https://style.disney.com/wp-content/uploads/2016/04/anatomyofadisneycharacterstyle_gaston-728x485.jpg"
+    },
+    {
+      "name": "Gaston",
+      "id": "67757f7d-a4ec-44f6-9406-73a0cdab6418",
+      "occupation": "Hunter",
+      "image": "https://style.disney.com/wp-content/uploads/2016/04/anatomyofadisneycharacterstyle_gaston-728x485.jpg"
+    },
+    {
+      "name": "The Beast",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
+      "occupation": "Beast",
+      "id": "ce98cc15-4bbd-4f18-b27a-65e5762ab263"
+    },
+    {
+      "name": "Show White",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
+      "occupation": "Princess",
+      "id": "e37c6b1e-fb2f-42c1-bad9-869aedcd29b4"
+    },
+    {
+      "name": "Show White",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
+      "occupation": "Princess",
+      "id": "f3270cb9-9a3c-4c7e-8333-704e4e7117ec"
+    },
+    {
+      "name": "The Beast",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
+      "occupation": "Beast",
+      "id": "5644edc5-df72-4c76-a93e-68c88a1aa958"
+    },
+    {
+      "name": "The Beast",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
+      "occupation": "Beast",
+      "id": "619b783a-d185-4814-9219-ab18e5999548"
+    },
+    {
+      "name": "The Beast",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
+      "occupation": "Princess",
+      "id": "68eae40f-0d45-4b35-82b6-808e5cc7e163"
+    },
+    {
+      "name": "The Beast",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
+      "occupation": "Princess",
+      "id": "90875556-8666-48f2-9de7-3a0e48d5e34c"
+    },
+    {
+      "name": "Ruby 2.1",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
+      "occupation": "Princess",
+      "id": "c840f0d6-27ef-4c96-99ba-b868f3558051"
+    },
+    {
+      "name": "Ruby 2.1",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
+      "occupation": "Princess",
+      "id": "1e77737e-133e-479c-a7d0-ca5e834c1b59"
+    },
+    {
+      "name": "Ruby 2.1",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
+      "occupation": "Princess",
+      "id": "4cffd927-bcfa-4719-bde2-f4944bcb5fe6"
+    },
+    {
+      "name": "Ruby 2.1",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
+      "occupation": "Princess",
+      "id": "e1035348-3e1c-4e5d-b1ec-ce8f30529562"
+    },
+    {
+      "name": "Ruby 2.1",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
+      "occupation": "Princess",
+      "id": "e893b1fb-36e8-499a-bbdc-0653449ab69d"
+    },
+    {
+      "name": "Ruby 2.1",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
+      "occupation": "Princess",
+      "id": "f5f471fa-1fb5-4693-b0cb-3abd8096d004"
+    },
+    {
+      "name": "Ruby 2.1",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
+      "occupation": "Princess",
+      "id": "7a5a8c1e-1fc4-4ce6-925b-af22250338b6"
+    },
+    {
+      "name": "Ruby 2.1",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
+      "occupation": "Princess",
+      "id": "fab069f8-1c4a-432e-80a6-66f07c5165e4"
+    },
+    {
+      "name": "Ruby 2.1",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
+      "occupation": "Princess",
+      "id": "240ef450-fa50-44d6-b145-dd2e65560520"
+    },
+    {
+      "name": "The Beast",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-rh2s1r_7ed9f532.jpeg",
+      "occupation": "Beast",
+      "id": "3a894d82-eedd-4a6d-bff9-849e9579b30a"
+    },
+    {
+      "name": "",
+      "image": "",
+      "occupation": "",
+      "id": "740c589f-eae3-4aeb-981f-86155ed13428"
+    }
+  ],
+  "cities": []
+}

@@ -1,0 +1,23 @@
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.loader-content {
+    position: fixed;
+    top: 49%;
+    left: 47%;
+    color: white;
+}
+
+.loader-header {
+    font-size: 28px;
+}
+
+.loader-text {
+    font-size: 20px;
+}

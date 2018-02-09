@@ -27,7 +27,8 @@ a:hover {
     text-decoration: underline;
 }
 
-div {
+.left,
+.right {
     display: inline-block;
 }
 
@@ -96,7 +97,6 @@ table {
 table th {
     text-align: left;
     font-size: 18px;
-
 }
 
 tr:nth-child(even) {
@@ -116,13 +116,13 @@ table img {
 .nav .active {
     color: purple;
     text-decoration: underline;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .nav li:hover {
-    background: white;
+    /* background: white; */
+    background: rgba(255, 255, 255, 0.3);
     transition: background 0.5s;
-    
 }
 
 .nav li:hover a {
