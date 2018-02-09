@@ -1,0 +1,28 @@
+{
+  "name": "html-css-js-demo",
+  "version": "1.0.0",
+  "description": "_Home page_",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "lodash-id": "^0.14.0",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+      "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Minkov/html-css-js-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Minkov/html-css-js-demo/issues"
+  },
+  "homepage": "https://github.com/Minkov/html-css-js-demo#readme"
+}

@@ -46,4 +46,5 @@ app.post("/api/friends", (req, res) => {
     }, 2000);
 });
 
-app.listen(3001, () => console.log("Unicorns at :3001"));
+const port = process.env.PORT || 3001;
+app.listen(port, () => console.log("Unicorns at :" + port));
