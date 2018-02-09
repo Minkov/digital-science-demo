@@ -1,4 +1,3 @@
-var URL = "/api/friends";
 $("button")
     .on("click", function (ev) {
         showLoader();
@@ -6,21 +5,9 @@ $("button")
         var name = $("input[name=name]").val();
         var occupation = $("input[name=occupation]").val();
         var image = $("input[name=image]").val();
-
-        $.ajax({
-            url: URL,
-            method: "POST",
-            data: JSON.stringify({
-                name: name,
-                image: image,
-                occupation: occupation
-            }),
-            contentType: "application/json",
-            success: function (result) {
-                hideLoader();
-                // alert(JSON.stringify(result));
-            }
-        })
+        data.createFriend(name, occupation, image, function () {
+            hideLoader();
+        });
     });
 
 $("input[name=image]").on("input", function () {
@@ -38,36 +25,36 @@ $("#main-nav").load("/ui/nav.html", function () {
         .addClass("active");
 });
 
+function friendToRow(friend) {
+    return $("<tr/>")
+        .append(
+            $("<td/>")
+            .append(
+                $("<img/>")
+                .attr("src", friend.image)
+            )
+        )
+        .append(
+            $("<td/>")
+            .html(friend.name)
+        )
+        .append(
+            $("<td/>")
+            .html(friend.occupation)
+        );
+}
+
 function loadFriends() {
-    $.ajax({
-        url: URL,
-        success: function (friends) {
-            hideLoader();
-            // select table
-            var $table = $("tbody");
-            $table.html("");
-            // parse each friend into tr
-            friends.forEach(function (friend) {
-                $("<tr/>")
-                    .append(
-                        $("<td/>")
-                        .append(
-                            $("<img/>")
-                            .attr("src", friend.image)
-                        )
-                    )
-                    .append(
-                        $("<td/>")
-                        .html(friend.name)
-                    )
-                    .append(
-                        $("<td/>")
-                        .html(friend.occupation)
-                    )
-                    // insert tr table
-                    .appendTo($table);
+    data.getFriends(function (friends) {
+        hideLoader();
+        // select table
+        var $table = $("tbody");
+        $table.html("");
+        // parse each friend into tr
+        friends.map(friendToRow)
+            .forEach(function ($friend) {
+                $table.append($friend);
             });
-        }
     });
 }
 
