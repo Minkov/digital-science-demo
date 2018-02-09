@@ -1,4 +1,4 @@
-var URL = "http://localhost:3001/api/friends";
+var URL = "/api/friends";
 $("button")
     .on("click", function (ev) {
         showLoader();
@@ -28,7 +28,7 @@ $("input[name=image]").on("input", function () {
     $('img').attr("src", imageUrl);
 });
 
-$("#main-nav").load("ui/nav.html", function () {
+$("#main-nav").load("/ui/nav.html", function () {
     var currentPageUrl = window.location
         .pathname
         .substring(1);
